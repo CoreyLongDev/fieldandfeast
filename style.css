@@ -67,3 +67,56 @@ table {
     /* FONTS */
     --primary-font: 'Playfair Display', serif;
 }
+
+/* GLOBAL  */
+body {
+    font-family: var(--primary-font);
+    background-color: var(--soft-white);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* HEADER */
+header {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+header h1 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+header > p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+header nav {
+    background-color: var(--champagne-gold);
+    margin-top: 1rem;
+    padding: .75rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: var(--midnight-blue);
+    text-decoration: none;
+    font-weight: 700;
+}
