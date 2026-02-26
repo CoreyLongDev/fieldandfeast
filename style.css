@@ -84,6 +84,7 @@ header {
     background-color: var(--midnight-blue);
     color: var(--soft-white);
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 header img {
@@ -122,3 +123,19 @@ header nav a {
 }
 
 /* MAIN */
+main {
+    margin: auto 1rem;
+    line-height: 1.5rem;
+}
+
+#about, #offerings, #gallery {
+    border-bottom: var(--champagne-gold) solid 2px;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--midnight-blue);
+    margin-bottom: 0.75rem;
+}
