@@ -73,6 +73,10 @@ body {
     background-color: var(--soft-white);
 }
 
+p {
+    font-size: 16px
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -117,9 +121,9 @@ header nav ul {
 
 header nav a {
     color: var(--midnight-blue);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 /* MAIN */
@@ -131,11 +135,26 @@ main {
 #about, #offerings, #gallery {
     border-bottom: var(--champagne-gold) solid 2px;
     margin-bottom: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+#offerings section{
+    color: var(--linen);
+    background-color: var(--olive-green);
+    padding: 1rem 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    font-weight: 500;
     color: var(--midnight-blue);
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
