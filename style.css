@@ -299,3 +299,46 @@ footer nav a {
         padding: .25rem;
     }
 }
+
+/* X-LARGE RESOLUTION */
+@media (min-width: 1200px) {
+    main {
+        margin: 0 auto;
+        padding: 0 12rem;
+        max-width: 1300px;
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    header nav {
+        padding: 1rem;
+    }
+
+    header nav a {
+        font-size: 2rem;
+    }
+
+    #gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    #gallery figure {
+        height: 200px;
+    }
+
+    #gallery figcaption {
+    height: 2.5rem;
+    padding: 0 0.75rem 0.75rem 0.75rem;
+    font-size: 12px;
+    }
+
+    footer {
+        padding-top: 4rem;
+    }
+}
