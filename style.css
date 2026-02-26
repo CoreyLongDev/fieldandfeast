@@ -147,11 +147,16 @@ main {
     box-shadow: 3px 3px 10px var(--dark-charcoal);
 }
 
+#offerings section:nth-child(4) ul {
+    list-style: disc;
+    padding: 0 0 0 1rem;
+}
+
 h2 {
     font-size: 1.75rem;
     font-weight: 400;
     color: var(--midnight-blue);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 h3 {
@@ -176,9 +181,20 @@ figure img {
 }
 
 figcaption {
-    font-size: 14px;
-    background-color: var(--linen);
+    font-size: 13px;
+    background-color: var(--soft-white);
     text-align: center;
     padding: .5rem;
     font-style: italic;
+}
+
+#gallery a {
+    display: block;
+    color: var(--linen);
+    background-color: var(--olive-green);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
 }
