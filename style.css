@@ -144,6 +144,7 @@ main {
     padding: 1rem 0.75rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
+    box-shadow: 3px 3px 10px var(--dark-charcoal);
 }
 
 h2 {
