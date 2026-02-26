@@ -274,8 +274,28 @@ footer nav a {
         min-height: 0;
         object-fit: cover;
     }
-    
+
     figure:first-of-type {
     margin-top: 0;
+    }
+}
+
+/* LARGE RESOLUTION */
+@media (min-width: 900px) {
+    main {
+        margin: auto 3rem;
+    }
+
+    header img {
+        width: 225px;
+    }
+
+    #gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #gallery figcaption {
+        height: 2rem;
+        padding: .25rem;
     }
 }
