@@ -54,7 +54,6 @@ table {
 }
 
 /* ROOT CSS */
-
 :root {
     /* COLOR PALETTE */
     --midnight-blue: #1F2A44;
@@ -120,3 +119,5 @@ header nav a {
     text-decoration: none;
     font-weight: 700;
 }
+
+/* MAIN */
