@@ -250,4 +250,32 @@ footer nav a {
     #offerings section:nth-child(4) {
         grid-column: 1 / -1;
     }
+
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    #gallery h2,
+    #gallery > p,
+    #gallery > a {
+        grid-column: 1 / -1;
+    }
+
+    #gallery figure {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #gallery figure img {
+        flex: 1;
+        min-height: 0;
+        object-fit: cover;
+    }
+    
+    figure:first-of-type {
+    margin-top: 0;
+    }
 }
