@@ -138,7 +138,7 @@ main {
     padding-bottom: 1rem;
 }
 
-#offerings section{
+#offerings section {
     color: var(--linen);
     background-color: var(--olive-green);
     padding: 1rem 0.75rem;
@@ -197,4 +197,32 @@ figcaption {
     font-weight: 600;
     padding: 0.75rem;
     border-radius: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--linen);
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: .25rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+footer address a:last-of-type,
+footer nav a {
+    color: var(--champagne-gold);
+    font-weight: 600;
 }
